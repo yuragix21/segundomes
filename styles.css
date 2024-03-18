@@ -31,6 +31,7 @@ body {
     justify-content: space-evenly;
     border-radius: 30px;
    
+   
 }
 
 .content-left{
@@ -64,22 +65,131 @@ body {
 .menu {
     width: 100%;
     height: 20vh;
-    background-color: bisque;
+    /* background-color: bisque; */
     display: flex;
     flex-direction: column; /* Alinea los elementos en columna */
     align-items: center; /* Centra horizontalmente el contenido */
     justify-content: center; /* Centra verticalmente el contenido */
+    margin-top: 5%;
      
 }
 
 .row {
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: space-around;  
 }
 
 button {
-    margin:  10px; /* Ajusta el margen horizontal de los botones según sea necesario */
-   background-color: bisque;
+    margin:  50px; /* Ajusta el margen horizontal de los botones según sea necesario
+     */
+   background-color: #00000000;
    border: none;
 }
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+/* FRASE */
+
+.frase {
+    margin: 150px;
+    padding: 10px;
+    overflow: hidden; /* Para evitar que el contenido se desborde */
+    display: flex; /* Alinea los elementos internos horizontalmente */
+    align-items: center; /* Centra verticalmente los elementos internos */
+}
+
+.letter {
+    width: 50px; /* Ancho deseado para los cuadrados */
+    height: 50px; /* Alto deseado para los cuadrados */
+    display: inline-block; /* Para colocar los div en línea */
+    text-align: center; /* Centra el contenido dentro del div */
+    line-height: 50px; /* Alinea verticalmente el texto */
+    margin-right: 5px; /* Separación mínima entre los div */
+    background-color: lightblue; /* Color de fondo opcional */
+    font-weight: 600;
+    font-size: 20px;
+}
+
+footer{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(187, 7, 37);
+}
+
+
+/* MEDYA QUERIS */
+
+@media only screen and (max-width: 600px) {
+    
+    .cabecera{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .banner {
+        height: 100%;
+        margin: 20px auto; /* Centra el banner horizontalmente */
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Centra verticalmente el contenido */
+        align-items: center; /* Centra horizontalmente el contenido */
+    }
+
+    .content-left, .content-right, .video {
+        width: 80%; /* Ajusta el ancho de los elementos en el banner */
+        margin: 10px;
+        height: 120px; /* Ajusta el margen de los elementos en el banner */
+    }
+
+    .content-left, .content-right {
+        text-align: center; /* Centra el texto */
+    }
+
+    .content-left, .content-right {
+        border-radius: 20px; /* Ajusta el radio de borde */
+    }
+
+    /* MENU */
+
+    .menu {
+        margin-top: 20px; /* Ajusta el margen superior */
+    }
+
+    .row {
+        flex-wrap: wrap; /* Para que los botones se ajusten al ancho del contenedor */
+
+    }
+
+    button {
+        margin: 10px; /* Ajusta el margen entre los botones */
+    }
+
+    img {
+        width: 80px; /* Ajusta el tamaño de las imágenes */
+        height: 80px; /* Ajusta el tamaño de las imágenes */
+    }
+
+    .frase {
+        margin: 40px 20px; /* Ajusta el margen */
+    }
+
+    .letter {
+        font-size: 12px; /* Ajusta el tamaño del texto */
+        width: 40px; /* Ajusta el ancho de los cuadrados */
+        height: 40px; /* Ajusta la altura de los cuadrados */
+        line-height: 30px; /* Ajusta la altura de línea para centrar verticalmente */
+    }
+
+    footer {
+        font-size: 20px; /* Ajusta el tamaño del texto del pie de página */
+        margin: 20px;
+    }
+}
+
+
+
+
