@@ -14,7 +14,7 @@ body {
 .cabecera{
     font-size: 30px;
     font-weight: 600;
-    color: rgb(216, 190, 42);
+    color: rgb(233, 206, 56);
     margin: 10px;
 }
 
@@ -23,37 +23,63 @@ body {
 .banner {
     width: calc(100% - 20px); /* Teniendo en cuenta el margen de 10px a cada lado */
     height: 20vh;
-    background-color: green;
+    background-color: rgb(228, 43, 43);
     margin: 10px;
     display: flex;
     justify-content: center; /* Centra horizontalmente el contenido */
     align-items: center; /* Centra verticalmente el contenido */
     justify-content: space-evenly;
+    border-radius: 30px;
    
 }
 
 .content-left{
-    width: 50px;
-    height: 50px;
-    background-color: aqua;
+    width: 320px;
+    height: 160px;
+    background-color: rgb(233, 76, 97);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px ;
     
 }
 
 .content-right{
-    width: 50px;
-    height: 50px;
-    background-color: rgb(96, 240, 29);
+    font-size: 30px;
+    width: 320px;
+    height: 160px;
+    background-color: rgb(233, 76, 97);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
 }
 
-
-.video{
-    width: 50px;
-    height: 50px;
-    background-color: rgb(66, 27, 206);
-}
 
 
 /* MENU */
-.menu{
+.menu {
+    width: 100%;
+    height: 20vh;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en columna */
+    align-items: center; /* Centra horizontalmente el contenido */
+    justify-content: center; /* Centra verticalmente el contenido */
+     
+}
 
+.row {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+button {
+    margin:  10px; /* Ajusta el margen horizontal de los botones según sea necesario */
+   background-color: bisque;
+   border: none;
 }
