@@ -93,6 +93,7 @@ h3{
     font-weight: 600;
     overflow: auto; /* Para permitir el desplazamiento vertical si el contenido es demasiado grande */
     max-height: 100%;
+    
 }
 
 .text .content{
@@ -107,9 +108,11 @@ h3{
     }
     .text{
         margin-top: 30%;
-        height: 440px;
+        height: 550px;
         width: 90%;
-        overflow-y: auto;
+       overflow-y: auto;
+       word-wrap: break-word;
+        
     }
 
     h3{
@@ -123,10 +126,16 @@ h3{
 
     .content{
         font-size: 15px;
-        word-wrap: break-word;
+        width: 100%;
+        height: auto;
+       
+        
+                
     }
 
-   
+    
+
+ 
 }
 
 
