@@ -1,41 +1,84 @@
-body{
+body {
     background-image: url('../img/background2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 50%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-img {
+.carousel-container {
+    width: 50%; /* Ajusta el ancho del contenedor del carrusel */
+    position: relative;
+    margin-top: 5%; /* Ajusta el margen superior según sea necesario */
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.carousel img {
+    width: 100%; /* Ajusta el ancho de las imágenes al 100% del contenedor */
+    height: 30vh;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px; /* Ajusta el ancho de los botones */
+    height: 50px; /* Ajusta la altura de los botones */
+    background-color: rgba(0, 0, 0, 0.2); /* Color de fondo de los botones */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+/* imagenes complementarias */
+.one{
+    position: absolute;
     width: 100px;
     height: 100px;
-    position: absolute; 
-}
-
-
-.one {
     top: 0; 
     left: 0; 
 }
 
-
-.two {
+.two{
+    position: absolute;
+    width: 100px;
+    height: 100px;
     bottom: 0; 
     left: 0; 
 }
 
-
-.three {
+.three{
+    position: absolute;
+    width: 100px;
+    height: 100px;
     top: 0; 
     right: 0; 
 }
 
-
-.four {
+.four{
+    position: absolute;
+    width: 100px;
+    height: 100px;
     bottom: 0; 
     right: 0; 
 }
-
-
 
 
 
