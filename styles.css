@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url('img/background-menu.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+
+.cabecera{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(216, 190, 42);
+    margin: 10px;
+}
+
+
+/* BANNER */
+.banner {
+    width: calc(100% - 20px); /* Teniendo en cuenta el margen de 10px a cada lado */
+    height: 20vh;
+    background-color: green;
+    margin: 10px;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: space-evenly;
+   
+}
+
+.content-left{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    
+}
+
+.content-right{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(96, 240, 29);
+}
+
+
+.video{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(66, 27, 206);
+}
+
+
+/* MENU */
+.menu{
+
+}
