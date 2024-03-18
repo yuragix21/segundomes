@@ -2,5 +2,133 @@ body{
     background-image: url('../img/background3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
 }
+
+
+/* imagenes complementarias */
+.one{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0; 
+    left: 0; 
+}
+
+.two{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 0; 
+    left: 0; 
+}
+
+.three{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0; 
+    right: 0; 
+}
+
+.four{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 0; 
+    right: 0; 
+}
+
+/* boton volver */
+.volver{
+    position: absolute;
+    top:0;
+    left: 0;
+    translate: 20px 100px;
+    height: 30px;
+    width: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+/* TEXT */
+.text{
+    width: 70%;
+    height: 900px;
+    background-color: #f37e1e; 
+    border-radius: 40px;
+    box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    
+}
+
+/* content text */
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    overflow: auto;
+    
+}
+
+h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.content {
+    font-size: 20px;
+    font-weight: 600;
+    overflow: auto; /* Para permitir el desplazamiento vertical si el contenido es demasiado grande */
+    max-height: 100%;
+}
+
+.text .content{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 600px){
+    body{
+        height: 840px;
+    }
+    .text{
+        margin-top: 45%;
+        height: 600px;
+        width: 90%;
+        overflow-y: auto;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    .logo{
+        width: 50px;
+        height: 50px;
+    }
+
+    .content{
+        font-size: 15px;
+        word-wrap: break-word;
+    }
+
+   
+}
+
+
+
+
