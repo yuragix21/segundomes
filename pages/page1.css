@@ -117,6 +117,23 @@ body {
     right: 0; 
 }
 
+/* boton volver */
+.volver{
+    position: absolute;
+    top:0;
+    left: 0;
+    translate: 20px 100px;
+    height: 30px;
+    width: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
 
 
 /* MEDIA QUERYS */
@@ -137,6 +154,8 @@ body {
 
     /* carousel */
     .carousel {
-        margin-top: 40%;
+        margin-top: 30%;
     }
+
+   
 }
