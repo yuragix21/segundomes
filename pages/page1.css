@@ -58,21 +58,31 @@ body {
     align-content: flex-start; /* Comienza en el extremo superior */
     width: 100%;
     height: 40vh;
-    background-color: beige;
+    background-color: rgb(236, 78, 189);
     margin-top: 50px;
 }
 
 .box {
     width: 20%; /* Cada cuadro ocupa el 20% del ancho */
     height: 20%; /* Cada cuadro ocupa el 20% del alto */
-    border: 1px solid black;
+    border: 1px solid rgb(182, 53, 143);
     box-sizing: border-box; /* Incluye el borde en el tamaño total */
     display: flex;
     justify-content: center; /* Centra horizontalmente el contenido */
     align-items: center; /* Centra verticalmente el contenido */
     font-size: 24px; /* Tamaño de fuente para el texto dentro del cuadro */
+    color: rgb(236, 78, 189);
+    user-select: none;
 }
-  
+
+.box:hover{
+    color: gold;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+
+
 
 /* imagenes complementarias */
 .one{
