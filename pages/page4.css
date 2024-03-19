@@ -53,6 +53,23 @@ video{
     }
 
     .container{
-        translate: 0 1000px;
+        translate: 0 3100px;
+    }
+
+    video{
+        width: 40vh;
+        height: auto;
+    }
+
+    .volver{
+        position: absolute;
+        top:0;
+        left: 0;
+        translate: 20px 60px;
+        height: 30px;
+        width: 60px;
+        font-size: 15px;
+        font-weight: 600;
+        
     }
 }
