@@ -82,7 +82,7 @@ a{
 
 @media only screen and (max-width: 600px){
     .container{
-        width: 40vh;
-        height: 70vh;
+        width: 50vh;
+        height: 60vh;
     }
 }
