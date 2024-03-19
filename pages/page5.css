@@ -16,7 +16,7 @@ body{
     position: absolute;
     top:0;
     left: 0;
-    translate: 10px 80px;
+    translate: 20px 80px;
     height: 30px;
     width: 60px;
     font-size: 15px;
@@ -75,7 +75,7 @@ a{
 
 /* container */
 .container{
-    width: 150vh;
+    width: 120vh;
     height: 80vh;
     background-color: aqua;
 }
