@@ -2,5 +2,81 @@ body{
     background-image: url('../img/background4.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 50%;
+    width: 100%;
+    padding: 0;
+    padding: 0;
+}
+
+/* Ubicando las imagenes de extremos */
+.one{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.two{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.three{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.four{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* boton volver */
+.volver{
+    position: absolute;
+    top:0;
+    left: 0;
+    translate: 20px 100px;
+    height: 30px;
+    width: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+
+/* Container de los audios */
+.content-audios{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container-aux{
+    width: 100vh;
+    height: 80vh;
+    background-color: bisque;
+}
+
+
+@media only screen and (max-width: 600px){
+    body{
+        background-image: url('../img/background4.jpg');
+        background-repeat: repeat;
+        background-size: cover; 
+    }
+    .container-aux{
+        width: 40vh;
+        height: 40vh;
+        
+    }
 }
