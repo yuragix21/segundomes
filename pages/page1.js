@@ -1,0 +1,1 @@
+window.alert("Presiona las cajitas de izquierda a derecha una a una")

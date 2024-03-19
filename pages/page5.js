@@ -1,0 +1,1 @@
+window.alert("Presiona la pantalla para encontrar el mensaje");

@@ -77,12 +77,38 @@ a{
 .container{
     width: 110vh;
     height: 80vh;
-    background-color: aqua;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar horizontalmente */
+    justify-content: center; /* Centrar verticalmente */
+}
+
+p{
+    margin: 20px;
+    font-size: 50px;
+}
+
+p:hover{
+    color: rgb(15, 199, 15);
+    text-shadow: 0 0 10px rgba(0, 255, 55, 0.8); 
+    text-shadow: 0 0 11px rgba(0, 255, 55, 0.8);
+    text-shadow: 0 0 12px rgba(0, 255, 55, 0.8);
+    text-shadow: 0 0 13px rgba(0, 255, 55, 0.8);
+    text-shadow: 0 0 14px rgba(0, 255, 55, 0.8);
+    text-shadow: 0 0 15px rgba(0, 255, 55, 0.8);
+    text-shadow: 0 0 16px rgba(0, 255, 55, 0.8);
+    text-shadow: 0 0 17px rgba(0, 255, 55, 0.8);
+
 }
 
 @media only screen and (max-width: 600px){
     .container{
         width: 50vh;
         height: 60vh;
+    }
+
+    p{
+        font-size: 30px;
     }
 }

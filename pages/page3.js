@@ -1,3 +1,5 @@
+window.alert("Presiona los botones para escuchar")
+
 document.getElementById('boton1').addEventListener('click', function() {
     var audio = document.getElementById('audio1');
     if (audio.paused) {
