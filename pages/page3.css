@@ -68,7 +68,10 @@ a{
 .container-aux{
     width: 100vh;
     height: 80vh;
-    background-color: bisque;
+    background-color: rgb(238, 210, 175);
+    -webkit-box-shadow: 10px 10px 54px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 54px -7px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 54px -7px rgba(0,0,0,0.75);
 }
 
 
@@ -106,6 +109,7 @@ a{
 
     .botones{
         text-align: center;
+        
        
     }
 
@@ -114,23 +118,22 @@ a{
         height: 10vh;
         margin-top: 10px;
         margin-bottom: 20px;
+        border-radius: 50px;  
+        -webkit-box-shadow: 10px 4px 0px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 4px 0px -6px rgba(0,0,0,0.75);
+box-shadow: 10px 4px 0px -6px rgba(0,0,0,0.75);  
+font-size: 15px;
+        font-weight: 600;
+        background-color: rgb(243, 79, 50);
     }
 
 
-    .three{
-        width: 100px;
-        height: 100px;
-        position: absolute;
-        bottom: 0;
-        right: 0;
+    .title{
+        padding-top: 20px;
     }
-    
-    .four{
-        width: 100px;
-        height: 100px;
-        position: absolute;
-        top: 0;
-        right: 0;
+
+    .title:hover{
+        color: gold;
     }
 
     
