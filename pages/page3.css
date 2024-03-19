@@ -75,11 +75,24 @@ body{
         background-size: cover; 
     }
 
+    .volver{
+        position: absolute;
+        top:0;
+        left: 0;
+        translate: 20px 100px;
+        height: 30px;
+        width: 60px;
+        font-size: 15px;
+        font-weight: 600;
+        
+    }
+
    
     .container-aux{
         width: 40vh;
         height: auto;
-        margin-top: 80vh; 
+        margin-top: 105vh;
+       margin-bottom: 20px;
     }
 
     .title{
@@ -96,6 +109,24 @@ body{
         width: 25vh;
         height: 10vh;
         margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+
+    .three{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    
+    .four{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 0;
+        right: 0;
     }
 
     
