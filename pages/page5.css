@@ -87,6 +87,7 @@ a{
 p{
     margin: 20px;
     font-size: 50px;
+    user-select: none;
 }
 
 p:hover{
